@@ -9,9 +9,66 @@
 <p>
   <a href="https://www.linkedin.com/in/emanuel-gonzalez-michea/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/Emanuelgm98"><img src="https://img.shields.io/badge/GitHub-Emanuelgm98-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.credly.com/users/emanuel-gonzalez-michea/badges"><img src="https://img.shields.io/badge/Credly-Verified_Badges-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"></a>
 </p>
 
 </div>
+
+## 🏅 Credentials & Training
+
+**27 verified digital badges** on [Credly](https://www.credly.com/users/emanuel-gonzalez-michea/badges), issued by The Linux Foundation, Cisco, AWS Training and Certification, and ISC2.
+
+| Issuer | Badges | Focus |
+|---|---|---|
+| **The Linux Foundation** | 14 | Kubernetes, GitOps, OpenTelemetry, Zero Trust, Sigstore, SBOMs, OpenSSF Scorecard, secure software development, KEDA, Node.js |
+| **Cisco** | 7 | Cybersecurity Defense Analyst Career Path, Ethical Hacker, Network Defense, Endpoint Security, Cyber Threat Management, Python & JavaScript Essentials |
+| **AWS Training and Certification** | 5 | AWS Educate: Cloud 101, Compute, Storage, Machine Learning Foundations, Generative AI |
+| **ISC2** | 1 | ISC2 Candidate (valid until Mar 2027) |
+
+**🎯 Currently preparing:** AWS Certified Solutions Architect – Associate · HashiCorp Terraform Associate *(exams planned for the end of this month; not yet earned)*
+
+<details>
+<summary><b>View the complete badge list</b></summary>
+
+<br>
+
+| Badge | Issuer | Date |
+|---|---|---|
+| Endpoint Security | Cisco | Jun 2026 |
+| Cybersecurity Defense Analyst Career Path | Cisco | Apr 2026 |
+| AWS Educate Getting Started with Compute | AWS Training and Certification | Apr 2026 |
+| AWS Educate Machine Learning Foundations | AWS Training and Certification | Apr 2026 |
+| AWS Educate Getting Started with Storage | AWS Training and Certification | Apr 2026 |
+| AWS Educate Introduction to Cloud 101 | AWS Training and Certification | Apr 2026 |
+| AWS Educate Introduction to Generative AI | AWS Training and Certification | Apr 2026 |
+| ISC2 Candidate | ISC2 | Valid until Mar 2027 |
+| LFEL1006: Securing Projects with OpenSSF Scorecard | The Linux Foundation | Jan 2026 |
+| LFEL1014: Scaling Cloud Native Applications with KEDA | The Linux Foundation | Jan 2026 |
+| Cyber Threat Management | Cisco | Jan 2026 |
+| JavaScript Essentials 2 | Cisco | Jan 2026 |
+| LFEL1012: Secure AI/ML-Driven Software Development | The Linux Foundation | Jan 2026 |
+| LFEL1010: XSS Exploits and Defenses | The Linux Foundation | Dec 2025 |
+| LFW111: Introduction to Node.js | The Linux Foundation | Dec 2025 |
+| LFD121: Developing Secure Software | The Linux Foundation | Dec 2025 |
+| LFEL1007: Automating Supply Chain Security – SBOMs and Signatures | The Linux Foundation | Dec 2025 |
+| LFS148: Getting Started with OpenTelemetry | The Linux Foundation | Dec 2025 |
+| LFS169: Introduction to GitOps | The Linux Foundation | Dec 2025 |
+| LFS158: Introduction to Kubernetes | The Linux Foundation | Dec 2025 |
+| LFS182: Securing Your Software Supply Chain with Sigstore | The Linux Foundation | Dec 2025 |
+| LFS157: Introduction to Serverless on Kubernetes | The Linux Foundation | Dec 2025 |
+| LFS183: Introduction to Zero Trust | The Linux Foundation | Dec 2025 |
+| LFEL1011: OpenAPI Fundamentals | The Linux Foundation | Dec 2025 |
+| Network Defense | Cisco | Dec 2025 |
+| Python Essentials 2 | Cisco | Nov 2025 |
+| Ethical Hacker | Cisco | Nov 2025 |
+
+</details>
+
+<p align="center">
+  <a href="https://www.credly.com/users/emanuel-gonzalez-michea/badges"><img src="https://img.shields.io/badge/Verify_on-Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"></a>
+</p>
+
+---
 
 Cloud-focused technology professional from Chile with a focus on **cloud infrastructure, DevOps, DevSecOps, security automation, and AI-powered systems**.
 
@@ -150,6 +207,7 @@ I focus on developing technical projects that can be demonstrated through real i
 <p>
   <a href="https://www.linkedin.com/in/emanuel-gonzalez-michea/"><img src="https://img.shields.io/badge/LinkedIn-Emanuel_Gonzalez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/Emanuelgm98"><img src="https://img.shields.io/badge/GitHub-Emanuelgm98-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.credly.com/users/emanuel-gonzalez-michea/badges"><img src="https://img.shields.io/badge/Credly-Verified_Badges-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"></a>
 </p>
 
 <div align="center">
