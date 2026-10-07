@@ -1,22 +1,22 @@
 <div align="center">
 
-# Emanuel Ernest Gonzalez Michea
-
-### Cloud Engineer &nbsp;|&nbsp; AWS &nbsp;|&nbsp; DevOps &nbsp;|&nbsp; DevSecOps &nbsp;|&nbsp; AI Engineering
+<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/banner.svg" alt="Emanuel Ernesto Gonzalez Michea" width="100%">
 
 📍 Chile
 
 [English](https://github.com/Emanuelgm98/Emanuelgm98) · [Español](https://github.com/Emanuelgm98/Emanuelgm98/blob/main/docs/README.es.md)
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=1000&color=F7941D&center=true&vCenter=true&width=600&height=40&lines=Cloud+Infrastructure;DevOps+%26+DevSecOps;AI+Automation" alt="Typing SVG" />
 
 <p>
   <a href="https://www.linkedin.com/in/emanuel-gonzalez-michea/" title="LinkedIn">
     <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/linkedin.svg" height="40" alt="LinkedIn">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/Emanuelgm98" title="GitHub">
+  <a href="https://github.com/Emanuelgm1998" title="GitHub">
     <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/github.svg" height="40" alt="GitHub">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.credly.com/users/emanuel-gonzalez-michea/badges/credly" title="Credly">
+    <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/credly.svg" height="40" alt="Credly">
   </a>
 </p>
 
@@ -96,7 +96,8 @@ I build reliable and secure systems where **cloud infrastructure, automation, so
 ## 📫 Connect
 
 - **LinkedIn:** [emanuel-gonzalez-michea](https://www.linkedin.com/in/emanuel-gonzalez-michea/)
-- **GitHub:** [Emanuelgm98](https://github.com/Emanuelgm98)
+- **GitHub:** [Emanuelgm1998](https://github.com/Emanuelgm1998)
+- **Credly:** [emanuel-gonzalez-michea](https://www.credly.com/users/emanuel-gonzalez-michea/badges/credly)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/wave.svg" alt="" width="100%" />
