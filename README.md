@@ -51,13 +51,7 @@ Security focus: DevSecOps, Zero Trust, cloud security, and secure CI/CD.
 
 ## Training & Credentials
 
-**Verified course badges on [Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)** — The Linux Foundation, Cisco, AWS Training, and ISC2:
-
-- **Zero Trust & supply chain:** Sigstore · SBOMs · OpenSSF Scorecard
-- **Kubernetes & cloud native:** Kubernetes · GitOps · KEDA · OpenTelemetry
-- **Cybersecurity:** Cybersecurity Defense Analyst · Network Defense · Cyber Threat Management
-- **Cloud:** AWS Educate — Cloud 101 · Compute · Storage · Machine Learning Foundations · Generative AI
-- **Membership:** ISC2 Candidate
+**Verified course badges on [Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)**
 
 ---
 
