@@ -42,17 +42,22 @@ Enfoque de seguridad: DevSecOps, Zero Trust, seguridad cloud y CI/CD seguro.
 
 ---
 
+## Certificaciones
+
+- **AWS Certified Developer – Associate** — Amazon Web Services · caduca 17 ene 2027
+- **CompTIA Security+ ce** — CompTIA · caduca 17 dic 2028
+
+**En preparación (exámenes con proctor, objetivo: fin de octubre de 2026):** AWS Certified Solutions Architect – Associate · HashiCorp Terraform Associate.
+
 ## Formación y credenciales
 
-**27 insignias verificadas en [Credly](https://www.credly.com/users/emanuel-gonzalez-michea/badges)** — cursos y formación completados de The Linux Foundation (14), Cisco (7), AWS (5) e ISC2 (1):
+**Insignias de cursos verificadas en [Credly](https://www.credly.com/users/emanuel-gonzalez-michea/badges)** — The Linux Foundation, Cisco, AWS Training e ISC2:
 
 - **Zero Trust y cadena de suministro:** Sigstore · SBOMs · OpenSSF Scorecard
 - **Kubernetes y cloud native:** Kubernetes · GitOps · KEDA · OpenTelemetry
 - **Ciberseguridad:** Cybersecurity Defense Analyst · Network Defense · Cyber Threat Management
 - **Cloud:** AWS Educate — Cloud 101 · Compute · Storage · Machine Learning Foundations · Generative AI
 - **Membresía:** ISC2 Candidate
-
-**En preparación (exámenes con proctor, objetivo: fin de octubre de 2026):** AWS Certified Solutions Architect – Associate · HashiCorp Terraform Associate.
 
 ---
 
