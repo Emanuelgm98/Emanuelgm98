@@ -11,7 +11,7 @@
     <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/linkedin.svg" height="40" alt="LinkedIn">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/Emanuelgm98" title="GitHub">
+  <a href="https://github.com/Emanuelgm1998" title="GitHub">
     <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/github.svg" height="40" alt="GitHub">
   </a>
   &nbsp;&nbsp;
@@ -65,5 +65,5 @@ An autonomous browser-automation experiment with Playwright, Browser Use, and lo
 ## Contact
 
 - **LinkedIn:** [emanuel-gonzalez-michea](https://www.linkedin.com/in/emanuel-gonzalez-michea/)
-- **GitHub:** [Emanuelgm98](https://github.com/Emanuelgm98)
+- **GitHub:** [Emanuelgm1998](https://github.com/Emanuelgm1998)
 - **Credly:** [emanuel-gonzalez-michea](https://www.credly.com/users/emanuel-gonzalez-michea/badges/credly)
