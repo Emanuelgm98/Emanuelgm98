@@ -42,21 +42,23 @@ Enfoque de seguridad: DevSecOps, Zero Trust, seguridad cloud y CI/CD seguro.
 
 ---
 
-## Certificaciones
+## Formación y credenciales
 
-**27 insignias verificadas en [Credly](https://www.credly.com/users/emanuel-gonzalez-michea/badges)** — The Linux Foundation (14), Cisco (7), AWS (5), ISC2 (1):
+**27 insignias verificadas en [Credly](https://www.credly.com/users/emanuel-gonzalez-michea/badges)** — cursos y formación completados de The Linux Foundation (14), Cisco (7), AWS (5) e ISC2 (1):
 
-- **AWS Educate:** Cloud 101 · Compute · Storage · Machine Learning Foundations · Generative AI
-- **The Linux Foundation:** Kubernetes · GitOps · OpenTelemetry · Zero Trust · Sigstore · SBOMs · OpenSSF Scorecard · KEDA · Node.js
-- **Cisco:** Cybersecurity Defense Analyst · Ethical Hacker · Network Defense · Endpoint Security · Cyber Threat Management · Python & JavaScript Essentials
-- **ISC2:** ISC2 Candidate
-- **En preparación:** AWS Certified Solutions Architect – Associate · HashiCorp Terraform Associate
+- **Zero Trust y cadena de suministro:** Sigstore · SBOMs · OpenSSF Scorecard
+- **Kubernetes y cloud native:** Kubernetes · GitOps · KEDA · OpenTelemetry
+- **Ciberseguridad:** Cybersecurity Defense Analyst · Network Defense · Cyber Threat Management
+- **Cloud:** AWS Educate — Cloud 101 · Compute · Storage · Machine Learning Foundations · Generative AI
+- **Membresía:** ISC2 Candidate
+
+**En preparación (exámenes con proctor, objetivo: fin de octubre de 2026):** AWS Certified Solutions Architect – Associate · HashiCorp Terraform Associate.
 
 ---
 
 ## En construcción
 
-Un experimento de automatización autónoma de navegador con Playwright, Browser Use y LLMs locales (Ollama). Repositorio en preparación.
+Un experimento de automatización autónoma de navegador con Playwright, Browser Use y LLMs locales vía Ollama — Codex y Claude se usan como herramientas de desarrollo, no como dependencias de runtime. Repositorio en preparación.
 
 ---
 
