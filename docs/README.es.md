@@ -11,7 +11,7 @@
     <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/linkedin.svg" height="40" alt="LinkedIn">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/Emanuelgm1998" title="GitHub">
+  <a href="https://github.com/Emanuelgm98" title="GitHub">
     <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/github.svg" height="40" alt="GitHub">
   </a>
   &nbsp;&nbsp;
@@ -22,89 +22,46 @@
 
 </div>
 
-Ingeniero cloud desde Chile, con foco en **infraestructura cloud, DevOps, DevSecOps, seguridad automatizada y sistemas potenciados por IA**. Diseño y construyo soluciones prácticas donde **plataformas cloud, infraestructura como código, automatización e inteligencia artificial** trabajan juntas.
+**Cloud Engineer** con foco en infraestructura cloud, DevOps, DevSecOps y automatización con IA — construyendo soluciones prácticas con AWS, infrastructure as code y sistemas inteligentes.
 
 ---
 
-## 🧰 Stack Tecnológico
+## Stack
 
 | Área | Tecnologías |
 |---|---|
 | ☁️ **Cloud** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) |
 | 🏗️ **Infraestructura** | ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?style=flat-square&logo=opentofu&logoColor=black) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
 | 📦 **Contenedores** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) |
-| ⚙️ **DevOps** | ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
-| 🔐 **Seguridad** | ![DevSecOps](https://img.shields.io/badge/DevSecOps-C62828?style=flat-square) ![Zero Trust](https://img.shields.io/badge/Zero_Trust-37474F?style=flat-square) ![Cloud Security](https://img.shields.io/badge/Cloud_Security-0A66C2?style=flat-square) |
-| 🤖 **IA** | ![Codex](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) ![Qwen](https://img.shields.io/badge/Qwen-615CED?style=flat-square) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) |
-| 🕹️ **Automatización** | ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Browser Use](https://img.shields.io/badge/Browser_Use-000000?style=flat-square) |
+| ⚙️ **DevOps** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
+| 🤖 **IA** | ![Codex](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) |
+| 🕹️ **Automatización** | ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) |
 | 💻 **Desarrollo** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) |
-| 🖥️ **Sistemas** | Linux · Windows |
+
+Enfoque de seguridad: DevSecOps, Zero Trust, seguridad cloud y CI/CD seguro.
 
 ---
 
-## 🎯 Especialización
+## Certificaciones
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**27 insignias verificadas en [Credly](https://www.credly.com/users/emanuel-gonzalez-michea/badges)** — The Linux Foundation (14), Cisco (7), AWS (5), ISC2 (1):
 
-### ☁️ Ingeniería Cloud
-- Amazon Web Services (AWS)
-- Infraestructura y administración cloud
-- Arquitectura AWS
-- Seguridad cloud
-- Infrastructure as Code
-
-### ⚙️ DevOps & Platform Engineering
-- Linux, Docker, Kubernetes
-- Terraform & OpenTofu
-- CI/CD
-- Automatización de infraestructura
-- Administración de sistemas
-
-</td>
-<td width="50%" valign="top">
-
-### 🔐 DevSecOps & Seguridad
-- DevSecOps y Cloud Security
-- Zero Trust
-- CI/CD seguro
-- Automatización de seguridad
-- Seguridad de infraestructura
-
-### 🤖 Ingeniería IA & Automatización
-- Agentes de IA y flujos agénticos
-- Aplicaciones con LLMs
-- Ejecución web autónoma
-- Automatización de navegador
-- Desarrollo asistido por IA
-
-</td>
-</tr>
-</table>
+- **AWS Educate:** Cloud 101 · Compute · Storage · Machine Learning Foundations · Generative AI
+- **The Linux Foundation:** Kubernetes · GitOps · OpenTelemetry · Zero Trust · Sigstore · SBOMs · OpenSSF Scorecard · KEDA · Node.js
+- **Cisco:** Cybersecurity Defense Analyst · Ethical Hacker · Network Defense · Endpoint Security · Cyber Threat Management · Python & JavaScript Essentials
+- **ISC2:** ISC2 Candidate
+- **En preparación:** AWS Certified Solutions Architect – Associate · HashiCorp Terraform Associate
 
 ---
 
-## 🧭 Enfoque Profesional
+## En construcción
 
-**Ingeniería Cloud · DevOps · DevSecOps · Seguridad Cloud · Ingeniería IA · Automatización de Infraestructura**
-
-Construyo sistemas confiables y seguros donde **la infraestructura cloud, la automatización, la ingeniería de software y la IA** trabajan juntas para resolver problemas prácticos — siguiendo **`Construir` → `Validar` → `Desplegar` → `Mejorar` → `Escalar`**, demostrado con implementaciones reales y comportamiento medible.
+Un experimento de automatización autónoma de navegador con Playwright, Browser Use y LLMs locales (Ollama). Repositorio en preparación.
 
 ---
 
-## 📫 Contacto
+## Contacto
 
 - **LinkedIn:** [emanuel-gonzalez-michea](https://www.linkedin.com/in/emanuel-gonzalez-michea/)
-- **GitHub:** [Emanuelgm1998](https://github.com/Emanuelgm1998)
+- **GitHub:** [Emanuelgm98](https://github.com/Emanuelgm98)
 - **Credly:** [emanuel-gonzalez-michea](https://www.credly.com/users/emanuel-gonzalez-michea/badges/credly)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/wave.svg" alt="" width="100%" />
-</p>
-
-<div align="center">
-
-**Infraestructura Cloud · DevOps · Seguridad · Ingeniería IA**
-
-</div>
