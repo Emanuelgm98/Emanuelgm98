@@ -15,7 +15,7 @@
     <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/github.svg" height="40" alt="GitHub">
   </a>
   &nbsp;&nbsp;
-  <a href="https://www.credly.com/users/emanuel-gonzalez-michea/badges/credly" title="Credly">
+  <a href="https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges/credly" title="Credly">
     <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/credly.svg" height="40" alt="Credly">
   </a>
 </p>
@@ -51,7 +51,7 @@ Security focus: DevSecOps, Zero Trust, cloud security, and secure CI/CD.
 
 ## Training & Credentials
 
-**Verified course badges on [Credly](https://www.credly.com/users/emanuel-gonzalez-michea/badges)** — The Linux Foundation, Cisco, AWS Training, and ISC2:
+**Verified course badges on [Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)** — The Linux Foundation, Cisco, AWS Training, and ISC2:
 
 - **Zero Trust & supply chain:** Sigstore · SBOMs · OpenSSF Scorecard
 - **Kubernetes & cloud native:** Kubernetes · GitOps · KEDA · OpenTelemetry
@@ -71,4 +71,4 @@ An autonomous browser-automation experiment with Playwright, Browser Use, and lo
 
 - **LinkedIn:** [emanuel-gonzalez-michea](https://www.linkedin.com/in/emanuel-gonzalez-michea/)
 - **GitHub:** [Emanuelgm1998](https://github.com/Emanuelgm1998)
-- **Credly:** [emanuel-gonzalez-michea](https://www.credly.com/users/emanuel-gonzalez-michea/badges/credly)
+- **Credly:** [emanuel-gonzalez.f52e9a04](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges/credly)
