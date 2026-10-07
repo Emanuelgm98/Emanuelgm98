@@ -6,6 +6,10 @@
 
 📍 Chile
 
+[English](https://github.com/Emanuelgm98/Emanuelgm98) · [Español](https://github.com/Emanuelgm98/Emanuelgm98/blob/main/docs/README.es.md)
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=1000&color=F7941D&center=true&vCenter=true&width=600&height=40&lines=Cloud+Infrastructure;DevOps+%26+DevSecOps;AI+Automation" alt="Typing SVG" />
+
 <p>
   <a href="https://www.linkedin.com/in/emanuel-gonzalez-michea/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/Emanuelgm98"><img src="https://img.shields.io/badge/GitHub-Emanuelgm98-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
@@ -13,6 +17,12 @@
 </p>
 
 </div>
+
+Cloud-focused technology professional from Chile with a focus on **cloud infrastructure, DevOps, DevSecOps, security automation, and AI-powered systems**.
+
+I design and build practical solutions that combine **cloud platforms, infrastructure as code, automation, software engineering, cybersecurity, and artificial intelligence**.
+
+---
 
 ## 🏅 Credentials & Training
 
@@ -24,8 +34,7 @@
 | **Cisco** | 7 | Cybersecurity Defense Analyst Career Path, Ethical Hacker, Network Defense, Endpoint Security, Cyber Threat Management, Python & JavaScript Essentials |
 | **AWS Training and Certification** | 5 | AWS Educate: Cloud 101, Compute, Storage, Machine Learning Foundations, Generative AI |
 | **ISC2** | 1 | ISC2 Candidate (valid until Mar 2027) |
-
-**🎯 Currently preparing:** AWS Certified Solutions Architect – Associate · HashiCorp Terraform Associate *(exams planned for the end of this month; not yet earned)*
+| 📚 **In preparation** | 2 | AWS Certified Solutions Architect – Associate · HashiCorp Terraform Associate *(exams planned for the end of this month)* |
 
 <details>
 <summary><b>View the complete badge list</b></summary>
@@ -67,47 +76,6 @@
 <p align="center">
   <a href="https://www.credly.com/users/emanuel-gonzalez-michea/badges"><img src="https://img.shields.io/badge/Verify_on-Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"></a>
 </p>
-
----
-
-Cloud-focused technology professional from Chile with a focus on **cloud infrastructure, DevOps, DevSecOps, security automation, and AI-powered systems**.
-
-I design and build practical solutions that combine **cloud platforms, infrastructure as code, automation, software engineering, cybersecurity, and artificial intelligence**.
-
----
-
-## 🚀 Current Project
-
-<table>
-<tr>
-<td>
-
-### 🤖 Browser Agent IA
-**An autonomous web-execution platform that transforms natural-language instructions into structured, verifiable browser workflows.**
-
-| Area | Focus |
-|---|---|
-| 🧠 **Reasoning** | Task interpretation, planning, AI reasoning and decision-making |
-| 🌐 **Execution** | Autonomous browser execution, web navigation and interaction |
-| 🔎 **Data** | Data extraction and validation |
-| 🔁 **Reliability** | Failure detection and recovery |
-| 📦 **Output** | Structured outputs and evidence generation |
-| 🏢 **Application** | Business process automation |
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Browser Use](https://img.shields.io/badge/Browser_Use-000000?style=flat-square)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![Qwen](https://img.shields.io/badge/Qwen-615CED?style=flat-square)
-![LLMs](https://img.shields.io/badge/LLMs-412991?style=flat-square)
-
-**AI development workflow:** OpenAI Codex · Claude · Qwen · Ollama
-
-🔗 **Repository:** `<ADD-REPOSITORY-LINK-HERE>`
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -180,25 +148,7 @@ Python · JavaScript · Node.js · PowerShell · Git · GitHub
 
 **Cloud Engineering · DevOps · DevSecOps · Cloud Security · AI Engineering · AI Agents · Infrastructure Automation**
 
-My focus is building reliable and secure systems where **cloud infrastructure, automation, software engineering, and AI** work together to solve practical technical and business problems.
-
-### Current Direction
-
-**`Build` → `Validate` → `Deploy` → `Improve` → `Scale`**
-
-I focus on developing technical projects that can be demonstrated through real implementations, measurable behavior, and practical use cases.
-
----
-
-## 🔭 Areas of Interest
-
-| | |
-|---|---|
-| ☁️ Cloud architecture and infrastructure | 🤖 Autonomous AI agents |
-| 🏗️ Infrastructure as Code | 🧑‍💻 AI-powered developer workflows |
-| ⚙️ DevOps and platform engineering | 🌐 Browser automation |
-| 🔐 DevSecOps and cloud security | 🧠 LLM-based systems |
-| 🧩 Cloud-native technologies | 🛠️ Intelligent infrastructure automation |
+I build reliable and secure systems where **cloud infrastructure, automation, software engineering, and AI** work together to solve practical technical and business problems — following **`Build` → `Validate` → `Deploy` → `Improve` → `Scale`**, with every project demonstrated through real implementations and measurable behavior.
 
 ---
 
@@ -208,6 +158,10 @@ I focus on developing technical projects that can be demonstrated through real i
   <a href="https://www.linkedin.com/in/emanuel-gonzalez-michea/"><img src="https://img.shields.io/badge/LinkedIn-Emanuel_Gonzalez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/Emanuelgm98"><img src="https://img.shields.io/badge/GitHub-Emanuelgm98-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://www.credly.com/users/emanuel-gonzalez-michea/badges"><img src="https://img.shields.io/badge/Credly-Verified_Badges-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"></a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/wave.svg" alt="" width="100%" />
 </p>
 
 <div align="center">
