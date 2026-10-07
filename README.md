@@ -12,7 +12,7 @@
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Emanuelgm98" title="GitHub">
-    <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/github.svg" height="40" alt="GitHub">
+    <img src="https://github.com/Emanuelgm1998" height="40" alt="GitHub">
   </a>
   &nbsp;&nbsp;
   <a href="https://www.credly.com/users/emanuel-gonzalez-michea/badges/credly" title="Credly">
