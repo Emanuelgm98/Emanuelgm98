@@ -1,74 +1,70 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/banner.es.svg" alt="Emanuel Ernesto Gonzalez Michea" width="100%">
+<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/banner.es.svg" alt="Emanuel González — Cloud, AWS y DevSecOps" width="100%">
 
-📍 Chile
+**INGENIERO CLOUD & DEVSECOPS**  
+AWS · Infraestructura Cloud · Automatización · Seguridad desde el diseño
 
 [Español](https://github.com/Emanuelgm98/Emanuelgm98/blob/main/docs/README.es.md) · [English](https://github.com/Emanuelgm98/Emanuelgm98)
 
 <p>
-  <a href="https://www.linkedin.com/in/emanuel-gonzalez-michea/" title="LinkedIn">
-    <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/linkedin.svg" height="40" alt="LinkedIn">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Emanuelgm1998" title="GitHub">
-    <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/github.svg" height="40" alt="GitHub">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges/credly" title="Credly">
-    <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/credly.svg" height="40" alt="Credly">
-  </a>
+<a href="https://www.linkedin.com/in/emanuel-gonzalez-michea/"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/linkedin.svg" height="32" alt="LinkedIn"></a> &nbsp;
+<a href="https://github.com/Emanuelgm98"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/github.svg" height="32" alt="GitHub"></a> &nbsp;
+<a href="https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/credly.svg" height="32" alt="Credly"></a>
 </p>
-
+📍 Chile
 </div>
 
-**Cloud Engineer** con foco en infraestructura cloud, DevOps, DevSecOps y automatización con IA — construyendo soluciones prácticas con AWS, infrastructure as code y sistemas inteligentes.
-
 ---
 
-## Stack
+Desarrollo y protejo infraestructura cloud con un **enfoque AWS-first**, integrando infraestructura como código, prácticas DevSecOps y automatización. Me centro en soluciones prácticas y mantenibles, con controles de seguridad claros y visibilidad operativa.
 
-| Área | Tecnologías |
+## Competencias principales
+
+| Área | Tecnologías y prácticas |
 |---|---|
-| ☁️ **Cloud** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) |
-| 🏗️ **Infraestructura** | ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?style=flat-square&logo=opentofu&logoColor=black) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
-| 📦 **Contenedores** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) |
-| ⚙️ **DevOps** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
-| 🤖 **IA** | ![Codex](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) |
-| 🕹️ **IA & Automatización** | ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) · ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) · Browser Use · AI Agents |
-| 💻 **Desarrollo** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) |
+| **Cloud** | AWS · VPC · IAM · EC2 · S3 · RDS · Lambda · CloudWatch |
+| **Infraestructura como código** | Terraform · OpenTofu · CloudFormation |
+| **Contenedores** | Docker · Kubernetes · Amazon EKS |
+| **DevOps y CI/CD** | GitHub Actions · Git · Linux · PowerShell |
+| **Seguridad cloud** | IAM least privilege · Zero Trust · gestión de secretos · DevSecOps |
+| **Automatización y desarrollo** | Python · JavaScript · Node.js · n8n · Playwright |
+| **Ingeniería asistida por IA** | Codex · Claude · flujos con aprobación humana |
 
-Enfoque de seguridad: DevSecOps, Zero Trust, seguridad cloud y CI/CD seguro.
+## Proyectos destacados
 
----
+### Vanguard Private Operations
+Concepto de operaciones privadas respaldado por una arquitectura orientada a cloud, flujos seguros y automatización.
+
+- [Ver presentación del proyecto](https://emanuelgm98.github.io/Vanguard-presentation/)
+- [Repositorio de la presentación](https://github.com/Emanuelgm98/Vanguard-presentation)
+
+### Portfolio Cloud & DevSecOps
+Trabajo práctico en arquitectura AWS, automatización de infraestructura, seguridad CI/CD y operación cloud.
+
+[Explorar mis repositorios públicos →](https://github.com/Emanuelgm98?tab=repositories)
 
 ## Certificaciones
 
-- **AWS Certified Developer – Associate** — Amazon Web Services · caduca 17 ene 2027
-- **CompTIA Security+ ce** — CompTIA · caduca 17 dic 2028
+- **AWS Certified Developer – Associate** — Amazon Web Services
+- **CompTIA Security+ ce** — CompTIA
 
-**En preparación (exámenes con proctor, objetivo: fin de octubre de 2026):** AWS Certified Solutions Architect – Associate · HashiCorp Terraform Associate.
+**En preparación:** AWS Certified Solutions Architect – Associate (SAA-C03).
 
-## Formación y credenciales
+## Formación y desarrollo profesional
 
-**Insignias de cursos verificadas en [Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)** — The Linux Foundation, Cisco, AWS Training e ISC2:
+**Técnico de Nivel Superior en Administración en la Nube (Cloud)** — Instituto Profesional IPP, Chile.
 
-- **Zero Trust y cadena de suministro:** Sigstore · SBOMs · OpenSSF Scorecard
-- **Kubernetes y cloud native:** Kubernetes · GitOps · KEDA · OpenTelemetry
-- **Ciberseguridad:** Cybersecurity Defense Analyst · Network Defense · Cyber Threat Management
-- **Cloud:** AWS Educate — Cloud 101 · Compute · Storage · Machine Learning Foundations · Generative AI
-- **Membresía:** ISC2 Candidate
+Formación complementaria e insignias verificadas de AWS Training, The Linux Foundation, Cisco e ISC2, con contenidos de Kubernetes, GitOps, OpenTelemetry, seguridad de la cadena de suministro de software, Zero Trust y ciberseguridad.
 
----
-
-## En construcción
-
-Un experimento de automatización autónoma de navegador con Playwright, Browser Use y LLMs locales vía Ollama — Codex y Claude se usan como herramientas de desarrollo, no como dependencias de runtime. Repositorio en preparación.
-
----
+[Ver credenciales verificadas en Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)
 
 ## Contacto
 
 - **LinkedIn:** [emanuel-gonzalez-michea](https://www.linkedin.com/in/emanuel-gonzalez-michea/)
-- **GitHub:** [Emanuelgm1998](https://github.com/Emanuelgm1998)
-- **Credly:** [emanuel-gonzalez.f52e9a04](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges/credly)
+- **GitHub:** [@Emanuelgm98](https://github.com/Emanuelgm98)
+- **Credly:** [Insignias verificadas](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)
+
+---
+
+<div align="center"><sub>Ingeniería cloud · Seguridad desde el diseño · Mejora continua</sub></div>
