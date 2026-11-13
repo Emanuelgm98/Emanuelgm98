@@ -2,7 +2,7 @@
 <title id="title">Emanuel G.Michea — AWS Cloud Engineering</title>
 <desc id="desc">AWS-inspired dark navy cloud engineering banner with a gold GRIFFIN seal and Germanic blackletter name typography.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071526"/><stop offset=".52" stop-color="#102B46"/><stop offset="1" stop-color="#183D5C"/></linearGradient>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#041326"/><stop offset=".52" stop-color="#071A32"/><stop offset="1" stop-color="#0A2140"/></linearGradient>
  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF0B2"/><stop offset=".3" stop-color="#DDB65C"/><stop offset=".68" stop-color="#A97925"/><stop offset="1" stop-color="#F4D98C"/></linearGradient>
  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8CA9C4" stop-opacity=".15"/><stop offset=".5" stop-color="#D3DFEA" stop-opacity=".8"/><stop offset="1" stop-color="#8CA9C4" stop-opacity=".15"/></linearGradient>
  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="15"/></filter>
@@ -21,7 +21,7 @@
  <text x="0" y="28" fill="#C5D3E0" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2.8">AWS-FIRST  /  SEGURIDAD DESDE EL DISEÑO</text>
 </g>
 <g transform="translate(910 18)">
- <circle cx="132" cy="142" r="128" fill="#0A1B2B" fill-opacity=".35" stroke="url(#gold)" stroke-width="2.2"/>
+ <circle cx="132" cy="142" r="128" fill="#041326" fill-opacity=".72" stroke="url(#gold)" stroke-width="2.2"/>
  <circle cx="132" cy="142" r="117" fill="none" stroke="#D8B45F" stroke-opacity=".52" stroke-width="1"/>
  <image x="23" y="32" width="218" height="218" xlink:href="https://raw.githubusercontent.com/Emanuelgm98/Vanguard-presentation/main/branding/griffin-emblem.png" preserveAspectRatio="xMidYMid meet"/>
  <text x="132" y="286" text-anchor="middle" fill="url(#gold)" font-family="Georgia,serif" font-size="12" font-weight="bold" letter-spacing="3">GRIFFIN</text>
