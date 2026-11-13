@@ -1,6 +1,3 @@
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/banner.svg" alt="Emanuel G.Michea — AWS Cloud and DevSecOps Engineer, with the integrated GRIFFIN gold emblem" width="100%">
 
 **CLOUD & DEVSECOPS ENGINEER**  
 AWS · Cloud Architecture · Automation · Security by Design
