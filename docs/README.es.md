@@ -1,18 +1,16 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/banner.es.svg" alt="Emanuel González — Cloud, AWS y DevSecOps" width="100%">
+<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/banner.es.svg" alt="EMANUEL GM1998 — Cloud, AWS y DevSecOps" width="100%">
 
 **INGENIERO CLOUD & DEVSECOPS**  
-AWS · Infraestructura Cloud · Automatización · Seguridad desde el diseño
+AWS · Arquitectura Cloud · Automatización · Seguridad desde el diseño
 
 [Español](https://github.com/Emanuelgm98/Emanuelgm98/blob/main/docs/README.es.md) · [English](https://github.com/Emanuelgm98/Emanuelgm98)
 
-<p>
-<a href="https://www.linkedin.com/in/emanuel-gonzalez-michea/"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/linkedin.svg" height="32" alt="LinkedIn"></a> &nbsp;
-<a href="https://github.com/Emanuelgm98"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/github.svg" height="32" alt="GitHub"></a> &nbsp;
-<a href="https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/credly.svg" height="32" alt="Credly"></a>
-</p>
+[LinkedIn](https://www.linkedin.com/in/emanuel-gonzalez-michea/) · [GitHub](https://github.com/Emanuelgm98) · [Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)
+
 📍 Chile
+
 </div>
 
 ---
@@ -21,28 +19,28 @@ Desarrollo y protejo infraestructura cloud con un **enfoque AWS-first**, integra
 
 ## Competencias principales
 
-| Área | Tecnologías y prácticas |
-|---|---|
-| **Cloud** | AWS · VPC · IAM · EC2 · S3 · RDS · Lambda · CloudWatch |
-| **Infraestructura como código** | Terraform · OpenTofu · CloudFormation |
-| **Contenedores** | Docker · Kubernetes · Amazon EKS |
-| **DevOps y CI/CD** | GitHub Actions · Git · Linux · PowerShell |
-| **Seguridad cloud** | IAM least privilege · Zero Trust · gestión de secretos · DevSecOps |
-| **Automatización y desarrollo** | Python · JavaScript · Node.js · n8n · Playwright |
-| **Ingeniería asistida por IA** | Codex · Claude · flujos con aprobación humana |
+- **Cloud:** AWS, VPC, IAM, EC2, S3, RDS, Lambda, CloudWatch
+- **Infraestructura como código:** Terraform, OpenTofu, CloudFormation
+- **Contenedores:** Docker, Kubernetes, Amazon EKS
+- **DevOps y CI/CD:** GitHub Actions, Git, Linux, PowerShell
+- **Seguridad cloud:** IAM least privilege, Zero Trust, gestión de secretos, DevSecOps
+- **Automatización y desarrollo:** Python, JavaScript, Node.js, n8n, Playwright
+- **Ingeniería asistida por IA:** Codex, Claude, flujos con aprobación humana
 
 ## Proyectos destacados
 
 ### Vanguard Private Operations
+
 Concepto de operaciones privadas respaldado por una arquitectura orientada a cloud, flujos seguros y automatización.
 
 - [Ver presentación del proyecto](https://emanuelgm98.github.io/Vanguard-presentation/)
 - [Repositorio de la presentación](https://github.com/Emanuelgm98/Vanguard-presentation)
 
 ### Portfolio Cloud & DevSecOps
+
 Trabajo práctico en arquitectura AWS, automatización de infraestructura, seguridad CI/CD y operación cloud.
 
-[Explorar mis repositorios públicos →](https://github.com/Emanuelgm98?tab=repositories)
+[Explorar mis repositorios públicos](https://github.com/Emanuelgm98?tab=repositories)
 
 ## Certificaciones
 
@@ -58,6 +56,10 @@ Trabajo práctico en arquitectura AWS, automatización de infraestructura, segur
 Formación complementaria e insignias verificadas de AWS Training, The Linux Foundation, Cisco e ISC2, con contenidos de Kubernetes, GitOps, OpenTelemetry, seguridad de la cadena de suministro de software, Zero Trust y ciberseguridad.
 
 [Ver credenciales verificadas en Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)
+
+## Ecosistema tecnológico
+
+AWS es la plataforma cloud principal representada en mis proyectos de arquitectura e ingeniería. **GRIFFIN** es un proyecto independiente de automatización con agentes, enfocado en ejecución controlada, aprobaciones humanas y evidencia operativa. Se presentan como referencias tecnológicas y de proyectos, no como patrocinios oficiales.
 
 ## Contacto
 
