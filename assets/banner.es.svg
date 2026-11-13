@@ -1,28 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-<title id="title">EMANUEL GM1998 — Cloud y DevSecOps</title>
-<desc id="desc">A restrained midnight-blue heraldic identity for cloud engineering, AWS, DevSecOps and automation, with a winged shield and griffin-inspired mark.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Emanuel G.Michea — AWS Cloud Engineering</title>
+<desc id="desc">AWS-inspired dark navy cloud engineering banner with a gold GRIFFIN seal and Germanic blackletter name typography.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081626"/><stop offset=".55" stop-color="#102B45"/><stop offset="1" stop-color="#173B5B"/></linearGradient>
-  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D7E4F0"/><stop offset=".48" stop-color="#7899B8"/><stop offset="1" stop-color="#B7CADD"/></linearGradient>
-  <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#183B5A"/><stop offset="1" stop-color="#0A1B2D"/></linearGradient>
-  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071526"/><stop offset=".52" stop-color="#102B46"/><stop offset="1" stop-color="#183D5C"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF0B2"/><stop offset=".3" stop-color="#DDB65C"/><stop offset=".68" stop-color="#A97925"/><stop offset="1" stop-color="#F4D98C"/></linearGradient>
+ <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8CA9C4" stop-opacity=".15"/><stop offset=".5" stop-color="#D3DFEA" stop-opacity=".8"/><stop offset="1" stop-color="#8CA9C4" stop-opacity=".15"/></linearGradient>
+ <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="15"/></filter>
 </defs>
-<rect width="1200" height="300" rx="18" fill="url(#bg)"/>
-<circle cx="970" cy="148" r="118" fill="#6F91B2" opacity=".08" filter="url(#soft)"/>
-<path d="M0 244 C240 190 380 292 610 246 S970 196 1200 238" fill="none" stroke="#A8C0D8" stroke-opacity=".10"/>
-<path d="M58 48 V252" stroke="#8DAAC6" stroke-width="2" opacity=".55"/>
-<text x="88" y="113" fill="#E8EEF5" font-family="UnifrakturCook, 'Old English Text MT', 'Cloister Black', Georgia, serif" font-size="55" font-weight="bold" letter-spacing="1.4">EMANUEL GM1998</text>
-<path d="M90 132 H610" stroke="url(#metal)" stroke-width="1.4" opacity=".7"/>
-<text x="91" y="169" fill="#C1D0DF" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="3.1">INGENIERÍA CLOUD  ·  AWS  ·  DEVSECOPS</text>
-<text x="91" y="204" fill="#91A9C1" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="2.1">ARQUITECTURA SEGURA  /  AUTOMATIZACIÓN  /  PLATAFORMAS</text>
-<g transform="translate(875 148)">
-  <path d="M-178 -46 C-132 -82 -91 -75 -55 -49 C-82 -48 -101 -34 -112 -12 C-83 -27 -56 -26 -32 -12 L-53 4 C-93 -5 -128 9 -157 36 C-149 5 -160 -21 -178 -46Z" fill="#6E8EAD" opacity=".62"/>
-  <path d="M178 -46 C132 -82 91 -75 55 -49 C82 -48 101 -34 112 -12 C83 -27 56 -26 32 -12 L53 4 C93 -5 128 9 157 36 C149 5 160 -21 178 -46Z" fill="#6E8EAD" opacity=".62"/>
-  <path d="M0 -92 L82 -62 L75 29 C62 69 28 91 0 108 C-28 91 -62 69 -75 29 L-82 -62Z" fill="url(#shield)" stroke="url(#metal)" stroke-width="2.2"/>
-  <path d="M-47 -35 C-18 -59 7 -50 18 -32 C36 -35 48 -20 40 -4 C34 7 18 10 8 3 L-3 22 L-19 17 L-14 0 C-33 2 -45 -11 -47 -35Z" fill="none" stroke="#D3DFEA" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M10 -30 L31 -45 L26 -23 M-13 17 L-28 37 M-3 22 L-1 43 M8 3 L26 15" fill="none" stroke="#A8BED3" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M-54 -69 L-30 -58 M54 -69 L30 -58 M-60 46 L-34 61 M60 46 L34 61" stroke="#9CB4CC" stroke-width="1.4" opacity=".8"/>
+<rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+<circle cx="980" cy="155" r="138" fill="#D9AE55" opacity=".10" filter="url(#glow)"/>
+<path d="M0 255 C220 204 380 302 610 257 S980 208 1200 251" fill="none" stroke="#9DB4CB" stroke-opacity=".13" stroke-width="1.5"/>
+<path d="M62 48 V270" stroke="#D1AA57" stroke-width="2" opacity=".8"/>
+<text x="91" y="119" fill="#F4F0E6" font-family="'UnifrakturCook','Old English Text MT','Cloister Black',Georgia,serif" font-size="59" font-weight="bold" letter-spacing="1.1">Emanuel G.Michea</text>
+<path d="M92 140 H685" stroke="url(#gold)" stroke-width="1.6" opacity=".85"/>
+<text x="95" y="180" fill="#D6E1EB" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="4">INGENIERÍA CLOUD AWS</text>
+<text x="95" y="215" fill="#9EB4C9" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="2.1">DEVSECOPS  ·  ARQUITECTURA CLOUD  ·  AUTOMATIZACIÓN</text>
+<g transform="translate(100 253)">
+ <path d="M0 0 H195" stroke="#E3A847" stroke-width="2.4" stroke-linecap="round"/>
+ <path d="M182 -7 Q198 1 207 -5" fill="none" stroke="#E3A847" stroke-width="2.4" stroke-linecap="round"/>
+ <text x="0" y="28" fill="#C5D3E0" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2.8">AWS-FIRST  /  SEGURIDAD DESDE EL DISEÑO</text>
 </g>
-<text x="875" y="282" text-anchor="middle" fill="#8FA9C2" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="2.6">AWS CLOUD  ·  PROYECTO GRIFFIN</text>
-<path d="M64 265 H1136" stroke="#A6BDD2" stroke-opacity=".22"/>
+<g transform="translate(910 18)">
+ <circle cx="132" cy="142" r="128" fill="#0A1B2B" fill-opacity=".35" stroke="url(#gold)" stroke-width="2.2"/>
+ <circle cx="132" cy="142" r="117" fill="none" stroke="#D8B45F" stroke-opacity=".52" stroke-width="1"/>
+ <image x="23" y="32" width="218" height="218" xlink:href="https://raw.githubusercontent.com/Emanuelgm98/Vanguard-presentation/main/branding/griffin-emblem.png" preserveAspectRatio="xMidYMid meet"/>
+ <text x="132" y="286" text-anchor="middle" fill="url(#gold)" font-family="Georgia,serif" font-size="12" font-weight="bold" letter-spacing="3">GRIFFIN</text>
+</g>
+<path d="M64 292 H1136" stroke="#A6BDD2" stroke-opacity=".22"/>
 </svg>
