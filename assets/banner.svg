@@ -1,30 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-<title id="title">Emanuel G.Michea — AWS Cloud Engineering</title>
-<desc id="desc">AWS-inspired dark navy cloud engineering banner with a gold GRIFFIN seal and Germanic blackletter name typography.</desc>
+<title id="title">Emanuel G.Michea | AWS Cloud &amp; DevSecOps</title>
+<desc id="desc">Professional dark navy AWS cloud engineering banner, gold GRIFFIN crest and Germanic-inspired name typography.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#041326"/><stop offset=".52" stop-color="#071A32"/><stop offset="1" stop-color="#0A2140"/></linearGradient>
- <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF0B2"/><stop offset=".3" stop-color="#DDB65C"/><stop offset=".68" stop-color="#A97925"/><stop offset="1" stop-color="#F4D98C"/></linearGradient>
- <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8CA9C4" stop-opacity=".15"/><stop offset=".5" stop-color="#D3DFEA" stop-opacity=".8"/><stop offset="1" stop-color="#8CA9C4" stop-opacity=".15"/></linearGradient>
- <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="15"/></filter>
+  <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061326"/><stop offset=".55" stop-color="#081B34"/><stop offset="1" stop-color="#0B2443"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF0B8"/><stop offset=".28" stop-color="#E7C36E"/><stop offset=".7" stop-color="#B88732"/><stop offset="1" stop-color="#F6DFA0"/></linearGradient>
+  <linearGradient id="blueLine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5E91BC" stop-opacity="0"/><stop offset=".5" stop-color="#8CB4D6" stop-opacity=".42"/><stop offset="1" stop-color="#5E91BC" stop-opacity="0"/></linearGradient>
+  <radialGradient id="halo"><stop offset="0" stop-color="#C99B45" stop-opacity=".15"/><stop offset="1" stop-color="#C99B45" stop-opacity="0"/></radialGradient>
 </defs>
-<rect width="1200" height="320" rx="18" fill="url(#bg)"/>
-<circle cx="980" cy="155" r="138" fill="#D9AE55" opacity=".10" filter="url(#glow)"/>
-<path d="M0 255 C220 204 380 302 610 257 S980 208 1200 251" fill="none" stroke="#9DB4CB" stroke-opacity=".13" stroke-width="1.5"/>
-<path d="M62 48 V270" stroke="#D1AA57" stroke-width="2" opacity=".8"/>
-<text x="91" y="119" fill="#F4F0E6" font-family="'UnifrakturCook','Old English Text MT','Cloister Black',Georgia,serif" font-size="59" font-weight="bold" letter-spacing="1.1">Emanuel G.Michea</text>
-<path d="M92 140 H685" stroke="url(#gold)" stroke-width="1.6" opacity=".85"/>
-<text x="95" y="180" fill="#D6E1EB" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="4">AWS CLOUD ENGINEERING</text>
-<text x="95" y="215" fill="#9EB4C9" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="2.1">DEVSECOPS  ·  CLOUD ARCHITECTURE  ·  AUTOMATION</text>
-<g transform="translate(100 253)">
- <path d="M0 0 H195" stroke="#E3A847" stroke-width="2.4" stroke-linecap="round"/>
- <path d="M182 -7 Q198 1 207 -5" fill="none" stroke="#E3A847" stroke-width="2.4" stroke-linecap="round"/>
- <text x="0" y="28" fill="#C5D3E0" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2.8">AWS-FIRST  /  SECURITY BY DESIGN</text>
+<rect width="1200" height="320" rx="16" fill="url(#night)"/>
+<path d="M0 40H1200M0 280H1200" stroke="#9DB8D0" stroke-opacity=".08"/>
+<path d="M0 250H780M0 258H780" stroke="url(#blueLine)" stroke-width="1"/>
+<circle cx="1040" cy="155" r="180" fill="url(#halo)"/>
+<!-- Subtle cloud/network motif -->
+<g fill="none" stroke="#83A9C9" stroke-opacity=".17" stroke-width="1.2">
+ <path d="M40 70H220L275 125H410M175 70L225 120V185H340M40 225H185L230 180H360"/>
+ <path d="M720 62H820L862 104H910M760 258H835L880 213H930"/>
+ <circle cx="40" cy="70" r="3" fill="#83A9C9"/><circle cx="410" cy="125" r="3" fill="#83A9C9"/>
+ <circle cx="340" cy="185" r="3" fill="#83A9C9"/><circle cx="40" cy="225" r="3" fill="#83A9C9"/>
+ <circle cx="910" cy="104" r="3" fill="#83A9C9"/>
 </g>
-<g transform="translate(910 18)">
- <circle cx="132" cy="142" r="128" fill="#041326" fill-opacity=".72" stroke="url(#gold)" stroke-width="2.2"/>
- <circle cx="132" cy="142" r="117" fill="none" stroke="#D8B45F" stroke-opacity=".52" stroke-width="1"/>
- <image x="23" y="32" width="218" height="218" xlink:href="https://raw.githubusercontent.com/Emanuelgm98/Vanguard-presentation/main/branding/griffin-emblem.png" preserveAspectRatio="xMidYMid meet"/>
- <text x="132" y="286" text-anchor="middle" fill="url(#gold)" font-family="Georgia,serif" font-size="12" font-weight="bold" letter-spacing="3">GRIFFIN</text>
+<path d="M62 48V270" stroke="url(#gold)" stroke-width="2"/>
+<text x="96" y="119" fill="#F5F1E8" font-family="'UnifrakturCook','Old English Text MT','Cloister Black',Georgia,serif" font-size="58" font-weight="bold" letter-spacing=".4">Emanuel G.Michea</text>
+<path d="M97 141H730" stroke="url(#gold)" stroke-width="1.5" opacity=".9"/>
+<text x="99" y="180" fill="#E3EDF5" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3.5">CLOUD &amp; DEVSECOPS ENGINEER</text>
+<text x="99" y="213" fill="#AFC3D6" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="1.8">AWS CLOUD  ·  ARCHITECTURE  ·  AUTOMATION  ·  SECURITY</text>
+<g transform="translate(99 251)">
+ <path d="M0 0H188" stroke="#E2B85D" stroke-width="2.2" stroke-linecap="round"/>
+ <text x="0" y="26" fill="#D5E0E9" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="2.5">SECURITY BY DESIGN  /  AWS-FIRST</text>
 </g>
-<path d="M64 292 H1136" stroke="#A6BDD2" stroke-opacity=".22"/>
+<g transform="translate(920 13)">
+ <circle cx="126" cy="145" r="128" fill="#061326" fill-opacity=".9" stroke="url(#gold)" stroke-width="2.2"/>
+ <circle cx="126" cy="145" r="117" fill="none" stroke="#D8B45F" stroke-opacity=".48" stroke-width="1"/>
+ <image x="20" y="39" width="212" height="212" xlink:href="https://raw.githubusercontent.com/Emanuelgm98/Vanguard-presentation/main/branding/griffin-emblem.png" preserveAspectRatio="xMidYMid meet"/>
+ <text x="126" y="291" text-anchor="middle" fill="url(#gold)" font-family="Georgia,serif" font-size="11" font-weight="bold" letter-spacing="3.4">GRIFFIN</text>
+</g>
+<path d="M62 296H1138" stroke="#AFC3D6" stroke-opacity=".16"/>
 </svg>
