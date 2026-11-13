@@ -1,18 +1,16 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/banner.svg" alt="Emanuel González — Cloud, AWS and DevSecOps" width="100%">
+<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/banner.svg" alt="EMANUEL GM1998 — Cloud, AWS and DevSecOps" width="100%">
 
 **CLOUD & DEVSECOPS ENGINEER**  
-AWS · Cloud Infrastructure · Automation · Security by Design
+AWS · Cloud Architecture · Automation · Security by Design
 
 [English](https://github.com/Emanuelgm98/Emanuelgm98) · [Español](https://github.com/Emanuelgm98/Emanuelgm98/blob/main/docs/README.es.md)
 
-<p>
-<a href="https://www.linkedin.com/in/emanuel-gonzalez-michea/"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/linkedin.svg" height="32" alt="LinkedIn"></a> &nbsp;
-<a href="https://github.com/Emanuelgm98"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/github.svg" height="32" alt="GitHub"></a> &nbsp;
-<a href="https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/credly.svg" height="32" alt="Credly"></a>
-</p>
+[LinkedIn](https://www.linkedin.com/in/emanuel-gonzalez-michea/) · [GitHub](https://github.com/Emanuelgm98) · [Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)
+
 📍 Chile
+
 </div>
 
 ---
@@ -21,28 +19,28 @@ I build and secure cloud infrastructure with an **AWS-first approach**, combinin
 
 ## Core capabilities
 
-| Area | Technologies and practices |
-|---|---|
-| **Cloud** | AWS · VPC · IAM · EC2 · S3 · RDS · Lambda · CloudWatch |
-| **Infrastructure as Code** | Terraform · OpenTofu · CloudFormation |
-| **Containers** | Docker · Kubernetes · Amazon EKS |
-| **DevOps & CI/CD** | GitHub Actions · Git · Linux · PowerShell |
-| **Cloud security** | IAM least privilege · Zero Trust · secrets management · DevSecOps |
-| **Automation & development** | Python · JavaScript · Node.js · n8n · Playwright |
-| **AI-assisted engineering** | Codex · Claude · human-in-the-loop workflows |
+- **Cloud:** AWS, VPC, IAM, EC2, S3, RDS, Lambda, CloudWatch
+- **Infrastructure as Code:** Terraform, OpenTofu, CloudFormation
+- **Containers:** Docker, Kubernetes, Amazon EKS
+- **DevOps & CI/CD:** GitHub Actions, Git, Linux, PowerShell
+- **Cloud security:** IAM least privilege, Zero Trust, secrets management, DevSecOps
+- **Automation & development:** Python, JavaScript, Node.js, n8n, Playwright
+- **AI-assisted engineering:** Codex, Claude, human-in-the-loop workflows
 
 ## Featured work
 
 ### Vanguard Private Operations
+
 A private-operations concept supported by cloud-oriented architecture, secure workflows and automation.
 
 - [Project presentation](https://emanuelgm98.github.io/Vanguard-presentation/)
 - [Presentation source repository](https://github.com/Emanuelgm98/Vanguard-presentation)
 
 ### Cloud & DevSecOps portfolio
+
 Hands-on work around AWS architecture, infrastructure automation, CI/CD security and operational practices.
 
-[Explore my public repositories →](https://github.com/Emanuelgm98?tab=repositories)
+[Explore my public repositories](https://github.com/Emanuelgm98?tab=repositories)
 
 ## Certifications
 
@@ -58,6 +56,10 @@ Hands-on work around AWS architecture, infrastructure automation, CI/CD security
 Additional verified training and badges across AWS Training, The Linux Foundation, Cisco and ISC2, including Kubernetes, GitOps, OpenTelemetry, software supply-chain security, Zero Trust and cybersecurity.
 
 [View verified credentials on Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)
+
+## Technology ecosystem
+
+AWS is the primary cloud platform represented across my architecture and engineering work. **GRIFFIN** is an independent agent-automation project focused on controlled execution, human approvals and operational evidence. These are technology and project references, not sponsorship claims.
 
 ## Contact
 
