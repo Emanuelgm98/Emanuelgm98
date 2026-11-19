@@ -26,20 +26,24 @@ Mi trabajo busca convertir la operación cloud en sistemas reproducibles y audit
 
 ## Lo que aporto
 
-| Área | Qué hago |
-| --- | --- |
-| **Arquitectura cloud** | Diseñar entornos AWS con redes privadas, IAM de mínimo privilegio, cifrado y servicios gestionados. |
-| **Infraestructura como código** | Construir módulos Terraform reutilizables con estado remoto, bloqueo, separación de entornos y policy-as-code. |
-| **Entrega segura** | Integrar escaneo de dependencias, IaC e imágenes, SBOM, OIDC y aprobaciones protegidas en CI/CD. |
-| **Operación** | Automatizar diagnósticos y runbooks, definir observabilidad y documentar backup, recuperación y respuesta a incidentes. |
+- **Arquitectura cloud:** Diseñar entornos AWS con redes privadas, IAM de mínimo privilegio, cifrado y servicios gestionados.
+- **Infraestructura como código:** Construir módulos Terraform reutilizables con estado remoto, bloqueo, separación de entornos y policy-as-code.
+- **Entrega segura:** Integrar escaneo de dependencias, IaC e imágenes, SBOM, OIDC y aprobaciones protegidas en CI/CD.
+- **Operación:** Automatizar diagnósticos y runbooks, definir observabilidad y documentar backup, recuperación y respuesta a incidentes.
 
 ## Certificaciones
 
 Credenciales activas y verificables públicamente:
 
-| <a href="https://www.credly.com/badges/896d0fff-96f8-4eb8-8428-bc3d9430b7ce"><img src="https://images.credly.com/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" alt="CompTIA Security+ ce Certification" width="104"></a> | <a href="https://www.credly.com/badges/c7b45e88-75bf-41cf-9637-da95e00c4543"><img src="https://images.credly.com/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" alt="AWS Certified Developer – Associate" width="104"></a> |
-|:--:|:--:|
-| **CompTIA Security+ ce**<br>CompTIA<br>Vigente hasta diciembre de 2028 | **AWS Certified Developer – Associate**<br>Amazon Web Services<br>Vigente hasta enero de 2027 |
+<p align="center">
+<a href="https://www.credly.com/badges/896d0fff-96f8-4eb8-8428-bc3d9430b7ce"><img src="https://images.credly.com/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" alt="CompTIA Security+ ce Certification" width="104"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.credly.com/badges/c7b45e88-75bf-41cf-9637-da95e00c4543"><img src="https://images.credly.com/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" alt="AWS Certified Developer – Associate" width="104"></a>
+</p>
+
+<p align="center">
+<strong>CompTIA Security+ ce</strong> · CompTIA · vigente hasta diciembre de 2028<br>
+<strong>AWS Certified Developer – Associate</strong> · Amazon Web Services · vigente hasta enero de 2027
+</p>
 
 **Formación:** Técnico de Nivel Superior en Administración en la Nube — IPP, Chile.  
 **Aprendizaje continuo:** arquitectura AWS, Kubernetes, GitOps, seguridad de la cadena de suministro y Zero Trust.
@@ -65,11 +69,9 @@ Credenciales activas y verificables públicamente:
 <img src="https://img.shields.io/badge/cfn--guard-Policy-2E7D8F?style=flat-square&amp;labelColor=0B1F33" alt="cfn-guard">
 </p>
 
-| Área | Tecnologías |
-| --- | --- |
-| **Servicios AWS** | EC2 · ECS · EKS · S3 · IAM · VPC · CloudFormation · CloudWatch · Security Hub |
-| **Ingeniería de seguridad** | Mínimo privilegio · Zero Trust · gestión de secretos · gestión de vulnerabilidades · SBOM |
-| **Entrega** | CI/CD · GitOps · pruebas de infraestructura · policy-as-code |
+- **Servicios AWS:** EC2 · ECS · EKS · S3 · IAM · VPC · CloudFormation · CloudWatch · Security Hub
+- **Ingeniería de seguridad:** Mínimo privilegio · Zero Trust · gestión de secretos · gestión de vulnerabilidades · SBOM
+- **Entrega:** CI/CD · GitOps · pruebas de infraestructura · policy-as-code
 
 ## Arquitectura AWS
 
@@ -77,13 +79,11 @@ Arquitectura de referencia de **AURA Private Operations**, una plataforma privad
 
 <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/architecture/aws-reference.svg" alt="Arquitectura AWS de referencia: CloudFront y WAF en el borde, identidad con Cognito, API Gateway, Lambda en subredes privadas, RDS PostgreSQL y DynamoDB, GitHub Actions con OIDC y Terraform, observabilidad con CloudWatch" width="100%">
 
-| Pilar de Well-Architected | Decisión de diseño |
-| --- | --- |
-| **Seguridad** | CloudFront + WAF + OAC; Cognito con MFA y PKCE; authorizer JWT; Lambda en subredes privadas; cifrado KMS; roles OIDC con permissions boundary. |
-| **Fiabilidad** | RDS PostgreSQL privado con backups y point-in-time recovery; multi-AZ en producción; ledger inmutable; runbook de recuperación documentado. |
-| **Excelencia operativa** | Módulos Terraform; separación plan/apply; entrega automática a dev; aprobación manual en producción; migraciones forward-only desde la VPC. |
-| **Eficiencia de rendimiento** | Frontend estático en CloudFront; API serverless; concurrencia reservada; servicios de datos gestionados. |
-| **Optimización de costos** | Servicios serverless y gestionados; RDS dimensionado; modelo de costos y palancas de ahorro documentados. |
+- **Seguridad:** CloudFront + WAF + OAC; Cognito con MFA y PKCE; authorizer JWT; Lambda en subredes privadas; cifrado KMS; roles OIDC con permissions boundary.
+- **Fiabilidad:** RDS PostgreSQL privado con backups y point-in-time recovery; multi-AZ en producción; ledger inmutable; runbook de recuperación documentado.
+- **Excelencia operativa:** Módulos Terraform; separación plan/apply; entrega automática a dev; aprobación manual en producción; migraciones forward-only desde la VPC.
+- **Eficiencia de rendimiento:** Frontend estático en CloudFront; API serverless; concurrencia reservada; servicios de datos gestionados.
+- **Optimización de costos:** Servicios serverless y gestionados; RDS dimensionado; modelo de costos y palancas de ahorro documentados.
 
 > **Estado:** el scaffold está validado localmente. No se han desplegado recursos AWS de producción; cualquier `apply` requiere autorización explícita y se ejecuta solo desde GitHub Actions con OIDC.
 
@@ -125,24 +125,20 @@ Banners y diagramas SVG escritos a mano, Markdown semántico y un diseño adapta
 
 La seguridad es un requisito de entrega, no una lista de verificación final.
 
-| Área de control | Implementación |
-| --- | --- |
-| **Identidad** | IAM de mínimo privilegio, OIDC en lugar de claves estáticas, MFA, separación de roles y permissions boundaries. |
-| **Red** | Subredes privadas, security groups sin confianza implícita, endpoints privados y protección perimetral con WAF. |
-| **Datos** | Cifrado KMS en reposo, TLS en tránsito, gestión de secretos, backups y recuperación. |
-| **Cadena de suministro** | Dependencias y actions fijadas, revisión de dependencias, escaneo de IaC e imágenes, SBOM. |
-| **Entrega** | Separación plan/apply, entornos protegidos, aprobación manual en producción y trazabilidad de auditoría. |
-| **Operación** | Logs estructurados, alarmas, dashboards, runbooks y recuperación ante desastres documentada. |
+- **Identidad:** IAM de mínimo privilegio, OIDC en lugar de claves estáticas, MFA, separación de roles y permissions boundaries.
+- **Red:** Subredes privadas, security groups sin confianza implícita, endpoints privados y protección perimetral con WAF.
+- **Datos:** Cifrado KMS en reposo, TLS en tránsito, gestión de secretos, backups y recuperación.
+- **Cadena de suministro:** Dependencias y actions fijadas, revisión de dependencias, escaneo de IaC e imágenes, SBOM.
+- **Entrega:** Separación plan/apply, entornos protegidos, aprobación manual en producción y trazabilidad de auditoría.
+- **Operación:** Logs estructurados, alarmas, dashboards, runbooks y recuperación ante desastres documentada.
 
 ## GitOps y CI/CD
 
 <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/gitops-flow.svg" alt="Flujo GitOps: commit revisado, controles de calidad y seguridad, OIDC hacia AWS, plan de Terraform, despliegue controlado y evidencia" width="100%">
 
-| Rama | Entorno | Comportamiento |
-| --- | --- | --- |
-| `develop` | `dev` | Pruebas, escaneos, plan y apply automático. |
-| `main` | `prod` | Pruebas, escaneos y plan; aprobación manual antes del apply. |
-| Pull request | — | Solo validación y plan; nunca apply. |
+- **`develop` → `dev`:** Pruebas, escaneos, plan y apply automático.
+- **`main` → `prod`:** Pruebas, escaneos y plan; aprobación manual antes del apply.
+- **Pull request:** Solo validación y plan; nunca apply.
 
 No se almacenan credenciales AWS de larga duración en GitHub. Los workflows intercambian un token OIDC de corta duración por credenciales temporales, y los cambios de producción requieren aprobación explícita.
 

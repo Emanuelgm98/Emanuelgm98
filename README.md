@@ -26,20 +26,24 @@ My work focuses on turning cloud operations into reproducible, auditable systems
 
 ## What I bring
 
-| Area | What I do |
-| --- | --- |
-| **Cloud architecture** | Design AWS environments with private networking, least-privilege IAM, encryption and managed services. |
-| **Infrastructure as code** | Build reusable Terraform modules with remote state, locking, environment separation and policy-as-code. |
-| **Secure delivery** | Integrate dependency, IaC and image scanning, SBOM, OIDC and protected production approvals into CI/CD. |
-| **Operations** | Automate diagnostics and runbooks, define observability, and document backup, recovery and incident response. |
+- **Cloud architecture:** Design AWS environments with private networking, least-privilege IAM, encryption and managed services.
+- **Infrastructure as code:** Build reusable Terraform modules with remote state, locking, environment separation and policy-as-code.
+- **Secure delivery:** Integrate dependency, IaC and image scanning, SBOM, OIDC and protected production approvals into CI/CD.
+- **Operations:** Automate diagnostics and runbooks, define observability, and document backup, recovery and incident response.
 
 ## Certifications
 
 Active, publicly verifiable credentials:
 
-| <a href="https://www.credly.com/badges/896d0fff-96f8-4eb8-8428-bc3d9430b7ce"><img src="https://images.credly.com/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" alt="CompTIA Security+ ce Certification" width="104"></a> | <a href="https://www.credly.com/badges/c7b45e88-75bf-41cf-9637-da95e00c4543"><img src="https://images.credly.com/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" alt="AWS Certified Developer – Associate" width="104"></a> |
-|:--:|:--:|
-| **CompTIA Security+ ce**<br>CompTIA<br>Valid through December 2028 | **AWS Certified Developer – Associate**<br>Amazon Web Services<br>Valid through January 2027 |
+<p align="center">
+<a href="https://www.credly.com/badges/896d0fff-96f8-4eb8-8428-bc3d9430b7ce"><img src="https://images.credly.com/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" alt="CompTIA Security+ ce Certification" width="104"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.credly.com/badges/c7b45e88-75bf-41cf-9637-da95e00c4543"><img src="https://images.credly.com/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" alt="AWS Certified Developer – Associate" width="104"></a>
+</p>
+
+<p align="center">
+<strong>CompTIA Security+ ce</strong> · CompTIA · valid through December 2028<br>
+<strong>AWS Certified Developer – Associate</strong> · Amazon Web Services · valid through January 2027
+</p>
 
 **Education:** Técnico de Nivel Superior en Administración en la Nube — IPP, Chile.  
 **Continuous learning:** AWS architecture, Kubernetes, GitOps, supply-chain security and Zero Trust.
@@ -65,11 +69,9 @@ Active, publicly verifiable credentials:
 <img src="https://img.shields.io/badge/cfn--guard-Policy-2E7D8F?style=flat-square&amp;labelColor=0B1F33" alt="cfn-guard">
 </p>
 
-| Area | Technologies |
-| --- | --- |
-| **AWS services** | EC2 · ECS · EKS · S3 · IAM · VPC · CloudFormation · CloudWatch · Security Hub |
-| **Security engineering** | Least privilege · Zero Trust · secrets management · vulnerability management · SBOM |
-| **Delivery** | CI/CD · GitOps · infrastructure testing · policy-as-code |
+- **AWS services:** EC2 · ECS · EKS · S3 · IAM · VPC · CloudFormation · CloudWatch · Security Hub
+- **Security engineering:** Least privilege · Zero Trust · secrets management · vulnerability management · SBOM
+- **Delivery:** CI/CD · GitOps · infrastructure testing · policy-as-code
 
 ## AWS architecture
 
@@ -77,13 +79,11 @@ Reference architecture from **AURA Private Operations**, a private commission op
 
 <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/architecture/aws-reference.svg" alt="AWS reference architecture: CloudFront and WAF at the edge, Cognito identity, API Gateway, Lambda in private subnets, RDS PostgreSQL and DynamoDB, GitHub Actions with OIDC and Terraform, CloudWatch observability" width="100%">
 
-| Well-Architected pillar | Design decision |
-| --- | --- |
-| **Security** | CloudFront + WAF + OAC; Cognito MFA and PKCE; JWT authorizer; Lambda in private subnets; KMS encryption; OIDC roles with a permissions boundary. |
-| **Reliability** | Private RDS PostgreSQL with backups and point-in-time recovery; multi-AZ in production; immutable ledger; documented recovery runbook. |
-| **Operational excellence** | Terraform modules; plan/apply separation; automatic dev delivery; manual production approval; forward-only migrations from inside the VPC. |
-| **Performance efficiency** | Static frontend delivered by CloudFront; serverless API; reserved concurrency; managed data services. |
-| **Cost optimization** | Serverless and managed services; right-sized RDS; documented cost model and savings levers. |
+- **Security:** CloudFront + WAF + OAC; Cognito MFA and PKCE; JWT authorizer; Lambda in private subnets; KMS encryption; OIDC roles with a permissions boundary.
+- **Reliability:** Private RDS PostgreSQL with backups and point-in-time recovery; multi-AZ in production; immutable ledger; documented recovery runbook.
+- **Operational excellence:** Terraform modules; plan/apply separation; automatic dev delivery; manual production approval; forward-only migrations from inside the VPC.
+- **Performance efficiency:** Static frontend delivered by CloudFront; serverless API; reserved concurrency; managed data services.
+- **Cost optimization:** Serverless and managed services; right-sized RDS; documented cost model and savings levers.
 
 > **Status:** the scaffold is validated locally. No production AWS resources are deployed; any `apply` requires explicit authorization and runs only from GitHub Actions with OIDC.
 
@@ -125,24 +125,20 @@ Hand-authored SVG banners and diagrams, semantic Markdown and a responsive layou
 
 Security is a delivery requirement, not a final checklist.
 
-| Control area | Implementation |
-| --- | --- |
-| **Identity** | Least-privilege IAM, OIDC instead of static keys, MFA, role separation and permissions boundaries. |
-| **Network** | Private subnets, security groups without implicit trust, private endpoints and edge protection with WAF. |
-| **Data** | KMS encryption at rest, TLS in transit, secrets management, backups and recovery. |
-| **Supply chain** | Pinned dependencies and actions, dependency review, IaC and image scanning, SBOM. |
-| **Delivery** | Plan/apply separation, protected environments, manual production approval and audit trail. |
-| **Operations** | Structured logs, alarms, dashboards, runbooks and documented disaster recovery. |
+- **Identity:** Least-privilege IAM, OIDC instead of static keys, MFA, role separation and permissions boundaries.
+- **Network:** Private subnets, security groups without implicit trust, private endpoints and edge protection with WAF.
+- **Data:** KMS encryption at rest, TLS in transit, secrets management, backups and recovery.
+- **Supply chain:** Pinned dependencies and actions, dependency review, IaC and image scanning, SBOM.
+- **Delivery:** Plan/apply separation, protected environments, manual production approval and audit trail.
+- **Operations:** Structured logs, alarms, dashboards, runbooks and documented disaster recovery.
 
 ## GitOps & CI/CD
 
 <img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/gitops-flow.svg" alt="GitOps delivery flow: reviewed commit, quality and security gates, OIDC to AWS, Terraform plan, controlled deployment and evidence" width="100%">
 
-| Branch | Environment | Behavior |
-| --- | --- | --- |
-| `develop` | `dev` | Tests, scans, plan and automatic apply. |
-| `main` | `prod` | Tests, scans and plan; manual approval before apply. |
-| Pull request | — | Validation and plan only; never apply. |
+- **`develop` → `dev`:** Tests, scans, plan and automatic apply.
+- **`main` → `prod`:** Tests, scans and plan; manual approval before apply.
+- **Pull request:** Validation and plan only; never apply.
 
 No long-lived AWS credentials are stored in GitHub. Workflows exchange a short-lived OIDC token for temporary credentials, and production changes require an explicit approval.
 
