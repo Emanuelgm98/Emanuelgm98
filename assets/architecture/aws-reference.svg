@@ -1,90 +1,106 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="780" viewBox="0 0 760 780" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="740" viewBox="0 0 960 740" role="img" aria-labelledby="title desc">
   <title id="title">AWS reference architecture — AURA Private Operations</title>
-  <desc id="desc">Layered AWS architecture: CloudFront and WAF at the edge, Cognito identity, API Gateway, Lambda in private subnets, RDS PostgreSQL and DynamoDB for data, GitHub Actions with OIDC and Terraform for delivery, and CloudWatch for observability.</desc>
+  <desc id="desc">Request path from browser through CloudFront and WAF into an AWS region: API Gateway validating Cognito JWT tokens, Lambda in private VPC subnets, RDS PostgreSQL Multi-AZ, DynamoDB and KMS, with CloudWatch and X-Ray, delivered by GitHub Actions using OIDC and separated Terraform roles.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#071426"/>
-      <stop offset="0.6" stop-color="#0A1D35"/>
-      <stop offset="1" stop-color="#0E2640"/>
-    </linearGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F6E6B4"/>
-      <stop offset="1" stop-color="#C79A45"/>
-    </linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#5C82A0"/>
+    </marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#D6AE5B"/>
+    </marker>
   </defs>
 
-  <rect width="760" height="780" rx="18" fill="url(#bg)" stroke="#15364E"/>
-  <text x="40" y="52" fill="#F2F6FA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="2.2">AWS REFERENCE ARCHITECTURE</text>
-  <text x="40" y="78" fill="#8FA8BD" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="0.6">AURA Private Operations · layered security and delivery</text>
-  <text x="720" y="52" fill="#D6AE5B" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2" text-anchor="end">PRIVATE IMPLEMENTATION</text>
-  <path d="M40 94H720" stroke="url(#gold)" stroke-width="1.2" stroke-opacity="0.45"/>
+  <rect width="960" height="740" rx="18" fill="#0A1A2B" stroke="#1E3A52"/>
+  <text x="40" y="50" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="2.1">AWS REFERENCE ARCHITECTURE</text>
+  <text x="40" y="74" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5">AURA Private Operations · request path, data plane and delivery</text>
+  <text x="920" y="50" fill="#D6AE5B" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" letter-spacing="1.8" text-anchor="end">PRIVATE IMPLEMENTATION</text>
+  <path d="M40 88H920" stroke="#D6AE5B" stroke-opacity="0.4"/>
 
-  <path d="M72 128V688" stroke="#1B4058" stroke-width="2"/>
+  <rect x="40" y="108" width="200" height="84" rx="10" fill="#102437" stroke="#22425C"/>
+  <text x="58" y="130" fill="#D6AE5B" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="1.8">CLIENT</text>
+  <text x="58" y="157" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="17" font-weight="600">Web application</text>
+  <text x="58" y="177" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11.5">Browser · PKCE login</text>
 
-  <g>
-    <rect x="40" y="112" width="680" height="76" rx="10" fill="#0A1F33" stroke="#1B4058"/>
-    <rect x="716" y="128" width="3" height="44" rx="1.5" fill="#2E7D8F"/>
-    <circle cx="72" cy="150" r="15" fill="#0E2A42" stroke="#2E7D8F" stroke-opacity="0.75"/>
-    <text x="72" y="155" fill="#9ED0D9" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">01</text>
-    <text x="104" y="142" fill="#7FA0B8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">EDGE</text>
-    <text x="104" y="170" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">CloudFront + AWS WAF + OAC</text>
-  </g>
+  <rect x="272" y="108" width="280" height="84" rx="10" fill="#102437" stroke="#22425C"/>
+  <text x="290" y="130" fill="#D6AE5B" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="1.8">EDGE · GLOBAL</text>
+  <text x="290" y="157" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="17" font-weight="600">CloudFront + AWS WAF</text>
+  <text x="290" y="177" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11.5">OAC · TLS · rate limiting</text>
 
-  <g>
-    <rect x="40" y="198" width="680" height="76" rx="10" fill="#0A1F33" stroke="#1B4058"/>
-    <rect x="716" y="214" width="3" height="44" rx="1.5" fill="#4C7FB0"/>
-    <circle cx="72" cy="236" r="15" fill="#0E2A42" stroke="#4C7FB0" stroke-opacity="0.75"/>
-    <text x="72" y="241" fill="#A9C7E2" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">02</text>
-    <text x="104" y="228" fill="#7FA0B8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">IDENTITY</text>
-    <text x="104" y="256" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">Amazon Cognito · MFA · PKCE</text>
-  </g>
+  <rect x="584" y="108" width="336" height="84" rx="10" fill="#102437" stroke="#22425C"/>
+  <text x="602" y="130" fill="#D6AE5B" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="1.8">IDENTITY</text>
+  <text x="602" y="157" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="17" font-weight="600">Amazon Cognito</text>
+  <text x="602" y="177" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11.5">MFA · authorization code + PKCE</text>
 
-  <g>
-    <rect x="40" y="284" width="680" height="76" rx="10" fill="#0A1F33" stroke="#1B4058"/>
-    <rect x="716" y="300" width="3" height="44" rx="1.5" fill="#4C7FB0"/>
-    <circle cx="72" cy="322" r="15" fill="#0E2A42" stroke="#4C7FB0" stroke-opacity="0.75"/>
-    <text x="72" y="327" fill="#A9C7E2" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">03</text>
-    <text x="104" y="314" fill="#7FA0B8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">API</text>
-    <text x="104" y="342" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">API Gateway · JWT authorizer</text>
-  </g>
+  <path d="M240 150H268" stroke="#5C82A0" stroke-width="1.4" marker-end="url(#ar)"/>
+  <path d="M552 150H580" stroke="#5C82A0" stroke-width="1.4" marker-end="url(#ar)"/>
 
-  <g>
-    <rect x="40" y="370" width="680" height="76" rx="10" fill="#0A1F33" stroke="#1B4058"/>
-    <rect x="716" y="386" width="3" height="44" rx="1.5" fill="#1F6F7D"/>
-    <circle cx="72" cy="408" r="15" fill="#0E2A42" stroke="#1F6F7D" stroke-opacity="0.9"/>
-    <text x="72" y="413" fill="#9ED0D9" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">04</text>
-    <text x="104" y="400" fill="#7FA0B8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">COMPUTE</text>
-    <text x="104" y="428" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">AWS Lambda in private subnets</text>
-  </g>
+  <rect x="40" y="212" width="880" height="344" rx="12" fill="#0D2033" stroke="#2A4A64" stroke-dasharray="5 4"/>
+  <text x="58" y="236" fill="#7E99B0" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="1.8">AWS REGION</text>
+  <text x="902" y="236" fill="#7E99B0" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="600" letter-spacing="1.2" text-anchor="end">VPC · PRIVATE SUBNETS</text>
 
-  <g>
-    <rect x="40" y="456" width="680" height="76" rx="10" fill="#0A1F33" stroke="#1B4058"/>
-    <rect x="716" y="472" width="3" height="44" rx="1.5" fill="#D6AE5B"/>
-    <circle cx="72" cy="494" r="15" fill="#0E2A42" stroke="#D6AE5B" stroke-opacity="0.8"/>
-    <text x="72" y="499" fill="#E8C87F" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">05</text>
-    <text x="104" y="486" fill="#7FA0B8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">DATA</text>
-    <text x="104" y="514" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">RDS PostgreSQL · DynamoDB · KMS</text>
-  </g>
+  <path d="M412 192V246" stroke="#5C82A0" stroke-width="1.4" marker-end="url(#ar)"/>
+  <text x="420" y="222" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="10">HTTPS</text>
+  <path d="M752 192V246" stroke="#5C82A0" stroke-width="1.4" marker-end="url(#ar)"/>
+  <text x="760" y="222" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="10">JWT</text>
 
-  <g>
-    <rect x="40" y="542" width="680" height="76" rx="10" fill="#0A1F33" stroke="#1B4058"/>
-    <rect x="716" y="558" width="3" height="44" rx="1.5" fill="#7A9FC2"/>
-    <circle cx="72" cy="580" r="15" fill="#0E2A42" stroke="#7A9FC2" stroke-opacity="0.8"/>
-    <text x="72" y="585" fill="#C3D6E8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">06</text>
-    <text x="104" y="572" fill="#7FA0B8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">DELIVERY</text>
-    <text x="104" y="600" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">GitHub Actions · OIDC · Terraform</text>
-  </g>
+  <rect x="64" y="250" width="832" height="50" rx="8" fill="#12283C" stroke="#2A4A64"/>
+  <text x="80" y="281" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="600">API Gateway · JWT authorizer</text>
+  <text x="880" y="281" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="10.5" text-anchor="end">token validation · throttling</text>
 
-  <g>
-    <rect x="40" y="628" width="680" height="76" rx="10" fill="#0A1F33" stroke="#1B4058"/>
-    <rect x="716" y="644" width="3" height="44" rx="1.5" fill="#4C8C7A"/>
-    <circle cx="72" cy="666" r="15" fill="#0E2A42" stroke="#4C8C7A" stroke-opacity="0.85"/>
-    <text x="72" y="671" fill="#A8D4C7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">07</text>
-    <text x="104" y="658" fill="#7FA0B8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">OBSERVABILITY</text>
-    <text x="104" y="686" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">CloudWatch alarms + dashboards</text>
-  </g>
+  <path d="M274 300V320" stroke="#5C82A0" stroke-width="1.4" marker-end="url(#ar)"/>
 
-  <path d="M40 726H720" stroke="#1B4058"/>
-  <text x="40" y="750" fill="#7F98AE" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11.5" font-weight="500">Reference design · private implementation · no production AWS resources deployed</text>
-  <text x="720" y="750" fill="#8FA8BD" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="1.6" text-anchor="end">AURA · GRIFFIN CLI</text>
+  <rect x="64" y="324" width="832" height="62" rx="8" fill="#12283C" stroke="#2A4A64"/>
+  <text x="80" y="350" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="600">AWS Lambda</text>
+  <text x="80" y="370" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11">Private subnets · two availability zones · least-privilege execution role</text>
+
+  <path d="M180 386V404" stroke="#5C82A0" stroke-width="1.4" marker-end="url(#ar)"/>
+  <path d="M520 386V404" stroke="#5C82A0" stroke-width="1.4" marker-end="url(#ar)"/>
+  <path d="M786 386V404" stroke="#5C82A0" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#ar)"/>
+
+  <rect x="64" y="408" width="348" height="64" rx="8" fill="#12283C" stroke="#2A4A64"/>
+  <text x="80" y="433" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600">Amazon RDS PostgreSQL</text>
+  <text x="80" y="453" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11">Multi-AZ · 35-day backups</text>
+
+  <rect x="428" y="408" width="232" height="64" rx="8" fill="#12283C" stroke="#2A4A64"/>
+  <text x="444" y="433" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600">DynamoDB</text>
+  <text x="444" y="453" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11">session and metadata</text>
+
+  <rect x="676" y="408" width="220" height="64" rx="8" fill="#12283C" stroke="#2A4A64"/>
+  <text x="692" y="433" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600">AWS KMS</text>
+  <text x="692" y="453" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11">customer-managed keys</text>
+
+  <rect x="64" y="494" width="832" height="44" rx="8" fill="#0F2337" stroke="#1F3B52"/>
+  <text x="80" y="521" fill="#A8C6DB" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5">Observability — CloudWatch alarms and dashboards · X-Ray traces</text>
+
+  <text x="40" y="584" fill="#D6AE5B" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="700" letter-spacing="1.8">DELIVERY · CI/CD</text>
+  <path d="M840 598V562" stroke="#D6AE5B" stroke-opacity="0.65" stroke-width="1.3" stroke-dasharray="4 3" marker-end="url(#arG)"/>
+
+  <rect x="40" y="600" width="160" height="76" rx="9" fill="#102437" stroke="#22425C"/>
+  <text x="56" y="627" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600">GitHub Actions</text>
+  <text x="56" y="647" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="10.5">reviewed change</text>
+
+  <rect x="220" y="600" width="160" height="76" rx="9" fill="#102437" stroke="#22425C"/>
+  <text x="236" y="627" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600">OIDC trust</text>
+  <text x="236" y="647" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="10.5">short-lived credentials</text>
+
+  <rect x="400" y="600" width="160" height="76" rx="9" fill="#102437" stroke="#22425C"/>
+  <text x="416" y="627" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600">Terraform plan</text>
+  <text x="416" y="647" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="10.5">read-only role</text>
+
+  <rect x="580" y="600" width="160" height="76" rx="9" fill="#102437" stroke="#D6AE5B" stroke-opacity="0.7"/>
+  <text x="596" y="627" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600">Prod approval</text>
+  <text x="596" y="647" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="10.5">manual gate</text>
+
+  <rect x="760" y="600" width="160" height="76" rx="9" fill="#102437" stroke="#22425C"/>
+  <text x="776" y="627" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600">Terraform apply</text>
+  <text x="776" y="647" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="10.5">boundary role</text>
+
+  <path d="M200 638H216" stroke="#5C82A0" stroke-width="1.4" marker-end="url(#ar)"/>
+  <path d="M380 638H396" stroke="#5C82A0" stroke-width="1.4" marker-end="url(#ar)"/>
+  <path d="M560 638H576" stroke="#5C82A0" stroke-width="1.4" marker-end="url(#ar)"/>
+  <path d="M740 638H756" stroke="#5C82A0" stroke-width="1.4" marker-end="url(#ar)"/>
+
+  <path d="M40 706H920" stroke="#1E3A52"/>
+  <text x="40" y="726" fill="#7E99B0" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11">Reference design · private implementation · no production AWS resources deployed</text>
+  <text x="920" y="726" fill="#8CA5BA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.4" text-anchor="end">AURA · GRIFFIN CLI</text>
 </svg>
