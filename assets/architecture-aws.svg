@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="780" viewBox="0 0 760 780" role="img" aria-labelledby="title desc">
-  <title id="title">AWS reference architecture â€” AURA Private Operations</title>
+  <title id="title">AWS reference architecture — AURA Private Operations</title>
   <desc id="desc">Layered AWS architecture: CloudFront and WAF at the edge, Cognito identity, API Gateway, Lambda in private subnets, RDS PostgreSQL and DynamoDB for data, GitHub Actions with OIDC and Terraform for delivery, and CloudWatch for observability.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -15,7 +15,7 @@
 
   <rect width="760" height="780" rx="18" fill="url(#bg)" stroke="#15364E"/>
   <text x="40" y="52" fill="#F2F6FA" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="2.2">AWS REFERENCE ARCHITECTURE</text>
-  <text x="40" y="78" fill="#8FA8BD" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="0.6">AURA Private Operations Â· layered security and delivery</text>
+  <text x="40" y="78" fill="#8FA8BD" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="0.6">AURA Private Operations · layered security and delivery</text>
   <text x="720" y="52" fill="#D6AE5B" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2" text-anchor="end">PRIVATE IMPLEMENTATION</text>
   <path d="M40 94H720" stroke="url(#gold)" stroke-width="1.2" stroke-opacity="0.45"/>
 
@@ -36,7 +36,7 @@
     <circle cx="72" cy="236" r="15" fill="#0E2A42" stroke="#4C7FB0" stroke-opacity="0.75"/>
     <text x="72" y="241" fill="#A9C7E2" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">02</text>
     <text x="104" y="228" fill="#7FA0B8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">IDENTITY</text>
-    <text x="104" y="256" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">Amazon Cognito Â· MFA Â· PKCE</text>
+    <text x="104" y="256" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">Amazon Cognito · MFA · PKCE</text>
   </g>
 
   <g>
@@ -45,7 +45,7 @@
     <circle cx="72" cy="322" r="15" fill="#0E2A42" stroke="#4C7FB0" stroke-opacity="0.75"/>
     <text x="72" y="327" fill="#A9C7E2" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">03</text>
     <text x="104" y="314" fill="#7FA0B8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">API</text>
-    <text x="104" y="342" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">API Gateway Â· JWT authorizer</text>
+    <text x="104" y="342" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">API Gateway · JWT authorizer</text>
   </g>
 
   <g>
@@ -63,7 +63,7 @@
     <circle cx="72" cy="494" r="15" fill="#0E2A42" stroke="#D6AE5B" stroke-opacity="0.8"/>
     <text x="72" y="499" fill="#E8C87F" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">05</text>
     <text x="104" y="486" fill="#7FA0B8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">DATA</text>
-    <text x="104" y="514" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">RDS PostgreSQL Â· DynamoDB Â· KMS</text>
+    <text x="104" y="514" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">RDS PostgreSQL · DynamoDB · KMS</text>
   </g>
 
   <g>
@@ -72,7 +72,7 @@
     <circle cx="72" cy="580" r="15" fill="#0E2A42" stroke="#7A9FC2" stroke-opacity="0.8"/>
     <text x="72" y="585" fill="#C3D6E8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">06</text>
     <text x="104" y="572" fill="#7FA0B8" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">DELIVERY</text>
-    <text x="104" y="600" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">GitHub Actions Â· OIDC Â· Terraform</text>
+    <text x="104" y="600" fill="#EAF1F7" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">GitHub Actions · OIDC · Terraform</text>
   </g>
 
   <g>
@@ -85,6 +85,6 @@
   </g>
 
   <path d="M40 726H720" stroke="#1B4058"/>
-  <text x="40" y="750" fill="#7F98AE" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11.5" font-weight="500">Reference design Â· private implementation Â· no production AWS resources deployed</text>
-  <text x="720" y="750" fill="#8FA8BD" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="1.6" text-anchor="end">AURA Â· GRIFFIN CLI</text>
+  <text x="40" y="750" fill="#7F98AE" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11.5" font-weight="500">Reference design · private implementation · no production AWS resources deployed</text>
+  <text x="720" y="750" fill="#8FA8BD" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="1.6" text-anchor="end">AURA · GRIFFIN CLI</text>
 </svg>
