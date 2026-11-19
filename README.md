@@ -77,7 +77,7 @@ Active, publicly verifiable credentials:
 
 Reference architecture from **AURA Private Operations**, a private commission operations platform built as a validated GitOps scaffold. The implementation is private; the public presentation (published as **Vanguard**) explains the product without exposing the operational console.
 
-<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/architecture/aws-reference.svg?v=2" alt="AWS reference architecture: CloudFront and WAF at the edge, Cognito identity, API Gateway, Lambda in private subnets, RDS PostgreSQL and DynamoDB, GitHub Actions with OIDC and Terraform, CloudWatch observability" width="100%">
+<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/architecture/aws-reference.svg?v=2" alt="AWS reference architecture: CloudFront and WAF at the edge, Cognito identity, API Gateway with a JWT authorizer, Lambda in private subnets, RDS PostgreSQL, DynamoDB and KMS, CloudWatch and X-Ray observability, and a CI/CD lane with OIDC, Terraform plan, manual production approval and apply under a permissions boundary" width="100%">
 
 - **Security:** CloudFront + WAF + OAC; Cognito MFA and PKCE; JWT authorizer; Lambda in private subnets; KMS encryption; OIDC roles with a permissions boundary.
 - **Reliability:** Private RDS PostgreSQL with backups and point-in-time recovery; multi-AZ in production; immutable ledger; documented recovery runbook.
