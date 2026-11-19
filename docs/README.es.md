@@ -9,7 +9,7 @@ AWS · INFRAESTRUCTURA COMO CÓDIGO · KUBERNETES · SEGURIDAD CLOUD
 
 [Español](https://github.com/Emanuelgm98/Emanuelgm98/blob/main/docs/README.es.md) · [English](https://github.com/Emanuelgm98/Emanuelgm98)
 
-[LinkedIn](https://www.linkedin.com/in/emanuel-gonzalez-michea/) · [GitHub](https://github.com/Emanuelgm98) · [Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)
+<a href="https://www.linkedin.com/in/emanuel-gonzalez-michea/"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/linkedin.svg" alt="LinkedIn" width="22" height="22"></a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/Emanuelgm98"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/github.svg" alt="GitHub" width="22" height="22"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/credly.svg" alt="Credly" width="22" height="22"></a>
 
 </div>
 
@@ -157,7 +157,7 @@ La mayor parte de mi trabajo de ingeniería está en repositorios privados, por 
 
 Abierto a roles de Cloud Engineer, AWS Cloud Engineer, DevSecOps y Cloud Security. Ubicado en Chile; disponible para equipos remotos e internacionales.
 
-[LinkedIn](https://www.linkedin.com/in/emanuel-gonzalez-michea/) · [GitHub](https://github.com/Emanuelgm98) · [Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges)
+<a href="https://www.linkedin.com/in/emanuel-gonzalez-michea/"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/linkedin.svg" alt="LinkedIn" width="22" height="22"></a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/Emanuelgm98"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/github.svg" alt="GitHub" width="22" height="22"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges"><img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/social/credly.svg" alt="Credly" width="22" height="22"></a>
 
 ---
 
