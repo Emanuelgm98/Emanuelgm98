@@ -142,17 +142,6 @@ La seguridad es un requisito de entrega, no una lista de verificación final.
 
 No se almacenan credenciales AWS de larga duración en GitHub. Los workflows intercambian un token OIDC de corta duración por credenciales temporales, y los cambios de producción requieren aprobación explícita.
 
-## Actividad y evidencia pública
-
-La mayor parte de mi trabajo de ingeniería está en repositorios privados, por lo que los gráficos de commits y contadores de contribuciones no representan el alcance real. Mantengo una huella pública intencional y verificable:
-
-- [Presentación pública de AURA](https://emanuelgm98.github.io/Vanguard-presentation/) — producto, capacidades y modelo de seguridad.
-- [Guía pública de GRIFFIN](https://codex-telegram-agent.vercel.app/) — instalación, operación y seguridad.
-- [Repositorios de GitHub](https://github.com/Emanuelgm98?tab=repositories) — trabajo público y recursos del perfil.
-- [Credly](https://www.credly.com/users/emanuel-gonzalez.f52e9a04/badges) — certificaciones verificadas.
-
-**Enfoque actual:** plataformas AWS seguras · seguridad de la cadena de suministro · Kubernetes y GitOps · operaciones asistidas por IA con aprobación humana.
-
 ## Contacto
 
 Abierto a roles de Cloud Engineer, AWS Cloud Engineer, DevSecOps y Cloud Security. Ubicado en Chile; disponible para equipos remotos e internacionales.
