@@ -1,6 +1,4 @@
-<div align="center">
 
-<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/banner.svg" alt="Emanuel G.Michea — Cloud and DevSecOps Engineer" width="100%">
 
 <br>
 
