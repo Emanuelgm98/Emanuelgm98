@@ -1,9 +1,8 @@
-
+<div align="center">
 
 <br>
 
-**CLOUD &amp; DEVSECOPS ENGINEER**  
-AWS · INFRASTRUCTURE AS CODE · KUBERNETES · CLOUD SECURITY
+<img src="https://raw.githubusercontent.com/Emanuelgm98/Emanuelgm98/main/assets/tagline-runes.svg" alt="CLOUD &amp; DEVSECOPS ENGINEER · AWS · Infrastructure as Code · Kubernetes · Cloud Security" width="620">
 
 [English](https://github.com/Emanuelgm98/Emanuelgm98) · [Español](https://github.com/Emanuelgm98/Emanuelgm98/blob/main/docs/README.es.md)
 
